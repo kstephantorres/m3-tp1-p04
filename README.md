@@ -1,6 +1,6 @@
 # Trabajo Practico N º 1
 
-_**PUNTO 1**_
+_**PUNTO 4**_
 
 ## Tecnologías Utilizadas 🛠️
 
@@ -14,7 +14,7 @@ _Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina._
 
 _Clona el proyecto_
 ```
-git clone 
+git clone https://github.com/kstephantorres/m3-tp1-p04.git
 ``` 
 
 _Instala las dependencias_
