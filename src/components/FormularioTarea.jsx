@@ -10,7 +10,7 @@ const FormularioTarea = () => {
     const handleSubmit=(e)=>{
         e.preventDefault()
         // &&  si la primer expresion es verdadera hace lo que le sigue sino no hace nada
-        !taskList.includes(task.toUpperCase()) && setTaskList([...taskList,task.trim()])
+        !taskList.includes(task.toUpperCase()) && task.trim() !== "" && setTaskList([...taskList,task.trim()])
         setTask('')
     }
     const deleteTask=(taskName)=>{
