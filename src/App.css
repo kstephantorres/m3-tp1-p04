@@ -20,3 +20,9 @@ body{
 #main{
   flex-grow: 1;
 }
+.item span{
+  width: 85%;
+   white-space: wrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
