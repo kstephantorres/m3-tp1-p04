@@ -10,7 +10,10 @@ function App() {
   return ( 
     <>
       <Container className='py-4' id='main'>
-        <h1 className='text-center text-white'>Lista de tareas </h1>
+        <div className='text-center text-white'>
+          <h1>¡Bienvenido!</h1>
+          <h4>Ingresa tus tareas:</h4>
+        </div>
         <FormularioTarea></FormularioTarea>
       </Container>
       <Footer></Footer>
